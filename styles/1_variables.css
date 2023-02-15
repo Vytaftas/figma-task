@@ -1,0 +1,28 @@
+:root {
+    /* Colors */
+    --clr-black: #1e1b1b;
+    --clr-orange: #ff6433;
+    --clr-violet: #661ce7;
+    --clr-green: #00d289;
+    --clr-gray: #e2e6e9;
+    --clr-lightgray: #f2f2f2;
+    --clr-white: #ffffff;
+
+    --clr-green-secondary: #61c3a1;
+
+    /* Typography */
+    --heading-size-1: 64px;
+    --heading-size-2: 58px;
+    --heading-size-3: 48px;
+    --heading-size-4: 40px;
+    --heading-size-5: 32px;
+    --heading-size-6: 20px;
+
+    --paragraph-size-1: 18px;
+    --paragraph-size-2: 16px;
+
+    --caption-size-1: 12px;
+
+    --title-size-1: 32px;
+    --title-size-2: 24px;
+}

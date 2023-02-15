@@ -1,0 +1,320 @@
+/* /// Diagnostics section */
+.diagnostics {
+    background-color: #f5f5f5;
+}
+
+.diagnostics-content-wrapper.container {
+    padding: 50px 25px;
+}
+
+.diagnostics .services-wrap {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+}
+
+.diagnostics .single-service {
+    grid-column: span 2;
+    grid-row: span 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.diagnostics .left-side {
+    padding: 32px 24px;
+    background-color: var(--clr-white);
+}
+
+.diagnostics .left-side .heading-3 {
+    margin-top: 24px;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.diagnostics .single-service .title-2 {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.diagnostics .single-service img {
+    max-width: 24px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.diagnostics .left-side .title-2 {
+    color: #232536;
+    opacity: 0.6;
+    margin: 24px 0;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.diagnostics-content-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+}
+
+.diagnostics .left-side,
+.diagnostics .right-side {
+    width: 100%;
+}
+
+/* /// Process section */
+.process {
+    padding: 50px 0;
+}
+
+.process .paragraph-1 {
+    color: #232536;
+    opacity: 0.6;
+    margin: 32px 0;
+}
+.process .title-2 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.process .single-process-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.process .single-process-container:not(:last-child) {
+    margin-bottom: 60px;
+}
+
+.process .process-right img,
+.process .process-images img {
+    width: calc(50% - 4px);
+}
+
+.process .process-images {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 48px;
+}
+
+/* Right */
+.process .process-right {
+    display: flex;
+    gap: 8px;
+    display: none;
+}
+
+/* Left */
+.process .process-left .heading-3 {
+    font-size: 30px;
+    line-height: 44px;
+    margin-bottom: 32px;
+}
+
+/* Single process */
+.process .process-single .icon-container {
+    background-color: var(--clr-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    min-height: 40px;
+    min-width: 40px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+.process .process-single .icon-container i {
+    color: white;
+    font-size: 20px;
+}
+.process .process-single {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.process .process-single:not(:last-child) {
+    margin-bottom: 32px;
+}
+
+/* Bottom */
+.process .single-process-container.bottom {
+    flex-direction: row-reverse;
+}
+.single-process-container.bottom .process-images {
+    margin-bottom: 32px;
+}
+
+@media (min-width: 768px) {
+    /* --- Diagnostics */
+    .diagnostics-content-wrapper.container {
+        padding: 128px 25px;
+    }
+
+    .diagnostics .services-wrap {
+        height: 100%;
+        gap: 20px;
+    }
+
+    .diagnostics .single-service {
+        grid-column: span 3;
+        grid-row: span 2;
+        padding: 20px;
+    }
+
+    .diagnostics .left-side {
+        padding: 64px 48px;
+    }
+
+    .diagnostics .left-side .heading-3 {
+        font-size: 40px;
+        line-height: 52px;
+        margin-top: 32px;
+    }
+
+    .diagnostics .single-service .title-2,
+    .diagnostics .left-side .title-2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .diagnostics .single-service img {
+        max-width: 40px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .diagnostics .left-side .title-2 {
+        margin: 32px 0;
+    }
+
+    .diagnostics-content-wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    /* --- Process */
+    .process .single-process-container.bottom .process-left {
+        padding: 0;
+        padding-left: 50px;
+    }
+
+    .process .single-process-container {
+        flex-direction: row;
+        text-align: start;
+    }
+    .process .single-process-container:not(:last-child) {
+        margin-bottom: 80px;
+    }
+
+    .process .process-left,
+    .process .process-right {
+        width: 53.5%;
+    }
+    .process .process-right img {
+        width: calc(50% - 8px);
+    }
+
+    .process .process-right {
+        display: flex;
+        gap: 16px;
+        width: 46.5%;
+    }
+    .process .process-left {
+        padding-right: 50px;
+    }
+
+    .process .process-left .heading-3 {
+        margin-bottom: 48px;
+    }
+    .process .single-process-container.bottom .heading-3 {
+        margin-bottom: 32px;
+    }
+
+    /* Single */
+    .process .process-single .icon-container {
+        width: 48px;
+        height: 48px;
+        min-height: 48px;
+        min-width: 48px;
+        margin-right: 24px;
+    }
+    .process .process-single .icon-container i {
+        font-size: 24px;
+    }
+    .process .process-single {
+        flex-direction: row;
+        justify-content: start;
+    }
+
+    .process .process-images {
+        display: none;
+    }
+}
+
+/* /// Media 1280*/
+@media (min-width: 1280px) {
+    /* --- Diagnostics */
+
+    .diagnostics .services-wrap,
+    .diagnostics-content-wrapper {
+        gap: 32px;
+    }
+
+    .diagnostics .left-side .heading-3 {
+        font-size: var(--heading-size-3);
+        line-height: 67.2px;
+        margin-top: 32px;
+    }
+
+    .diagnostics .single-service .title-2,
+    .diagnostics .left-side .title-2 {
+        font-size: var(--title-size-2);
+        line-height: 36px;
+    }
+
+    .diagnostics .single-service img {
+        max-width: 40px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    /* --- Process */
+    .process {
+        padding: 128px 0;
+    }
+
+    .process .process-left .heading-3 {
+        font-size: var(--heading-size-3);
+        line-height: 67.2px;
+    }
+
+    .process .paragraph-1 {
+        font-size: var(--paragraph-size-1);
+        line-height: 31.5px;
+    }
+    .process .title-2 {
+        font-size: var(--title-size-2);
+        line-height: 36px;
+    }
+
+    .process .single-process-container.bottom .process-left {
+        padding: 0;
+        padding-left: 100px;
+    }
+
+    .process .single-process-container.bottom .heading-3 {
+        margin-bottom: 32px;
+    }
+
+    .process .single-process-container:not(:last-child) {
+        margin-bottom: 128px;
+    }
+}

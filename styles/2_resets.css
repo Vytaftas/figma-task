@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    color: var(--clr-black);
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: initial;
+    color: initial;
+    display: flex;
+}
+
+section {
+    z-index: 0;
+    position: relative;
+}

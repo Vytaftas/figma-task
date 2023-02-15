@@ -1,0 +1,203 @@
+.single-service-section {
+    padding: 50px 0;
+}
+
+.single-service-section .content-wrap {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 32px;
+}
+
+.single-service-section .heading-1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.single-service-section .services-wrap {
+    padding: 32px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.single-service-section .services-wrap .service-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.single-service-section .services-wrap .title-1 {
+    margin: 0;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.single-service-section .other-services-wrap {
+    margin-top: 44px;
+}
+
+.single-service-section .service-content img {
+    margin-bottom: 16px;
+}
+
+.service-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.single-service-section .side-post {
+    padding: 12px 24px;
+    border-left: 3px solid var(--clr-black);
+}
+
+.single-service-section .paragraph-1 {
+    font-size: var(--paragraph-size-1);
+    line-height: 31.5px;
+    color: #232536;
+    opacity: 0.6;
+    text-align: start;
+}
+.single-service-section .paragraph-2 {
+    color: #232536;
+    opacity: 0.6;
+}
+
+.single-service-section .service-content .title-1 {
+    margin-top: 24px;
+}
+
+/* Provide  */
+.single-service-section .provide-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px;
+    padding: 3px;
+    padding-bottom: 0;
+    margin-top: 44px;
+}
+
+.single-service-section .provide-wrapper .paragraph-2 {
+    opacity: 0.6;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.single-service-section .provide-wrapper .single-provide {
+    background-color: var(--clr-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-column: span 3;
+    padding: 20px;
+    text-align: center;
+    gap: 10px;
+}
+
+.single-service-section .provide-wrapper .single-provide .provide-heading {
+    margin: 24px 0;
+}
+
+.single-service-section .provide-wrapper .single-provide .provide-icon {
+    background-color: #f5f5f5;
+    min-width: 64px;
+    min-height: 64px;
+    padding: 16px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-service-section .provide-wrapper .single-provide .provide-icon i {
+    font-size: 32px;
+}
+
+@media (min-width: 768px) {
+    .single-service-section .heading-1 {
+        text-align: start;
+        margin-bottom: 60px;
+    }
+
+    .single-service-section .services-wrap {
+        flex-direction: column;
+    }
+    .single-service-section .services-wrap .service-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: stretch;
+        gap: 32px;
+    }
+    .single-service-section .single-service {
+        width: 100%;
+    }
+
+    /* Provide */
+    .single-service-section .provide-wrapper .single-provide {
+        grid-column: span 1;
+    }
+}
+
+@media (min-width: 1280px) {
+    .single-service-section {
+        padding-top: 80px;
+        padding-bottom: 128px;
+    }
+
+    .single-service-section .service-content img {
+        margin-bottom: 32px;
+    }
+
+    .single-service-section .heading-1 {
+        text-align: start;
+        margin-bottom: 96px;
+    }
+
+    .single-service-section .content-wrap {
+        display: flex;
+        flex-direction: row;
+        gap: 96px;
+    }
+    .single-service-section .content-wrap .other-services-wrap {
+        flex-direction: column;
+    }
+
+    .single-service-section .services-wrap,
+    .single-service-section .services-wrap .service-wrapper,
+    .single-service-section .provide-wrapper {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .single-service-section .provide-wrapper .single-provide {
+        text-align: start;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        gap: 16px;
+    }
+
+    .single-service-section .provide-wrapper .paragraph-2 {
+        text-align: start;
+    }
+
+    .single-service-section .other-services-wrap {
+        margin-top: 0;
+        width: 34%;
+    }
+
+    .single-service-section .service-content {
+        width: 66%;
+    }
+
+    .single-service-section .provide-wrapper .single-provide .provide-icon {
+        background-color: #f5f5f5;
+        min-width: 47px;
+        min-height: 47px;
+        padding: 12px;
+    }
+
+    .single-service-section .provide-wrapper .single-provide .provide-icon i {
+        font-size: 24px;
+    }
+}

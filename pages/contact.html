@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact</title>
+        <link rel="stylesheet" href="../styles/1_variables.css" />
+        <link rel="stylesheet" href="../styles/2_resets.css" />
+        <link rel="stylesheet" href="../styles/3_header.css" />
+        <link rel="stylesheet" href="../styles/4_contact.css" />
+        <link rel="stylesheet" href="../styles/5_footer.css" />
+        <link rel="stylesheet" href="../styles/6_utilities.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;800&display=swap" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <script src="../scripts/header.js"></script>
+        <script src="../scripts/contact.js"></script>
+    </head>
+    <header>
+        <div class="header-wrapper container">
+            <div class="logo">
+                <a href="/"><img src="../assets/header__logo.png" alt="header logo" /></a>
+            </div>
+            <div class="navigation">
+                <ul class="nav">
+                    <li><a class="paragraph-2" href="/">Home</a></li>
+                    <li><a class="paragraph-2" href="./about.html">About us</a></li>
+                    <li><a class="paragraph-2" href="./services.html">Services</a></li>
+                    <li><a class="paragraph-2" href="./blog.html">Blog</a></li>
+                    <li><a class="paragraph-2" href="./contact.html">Contact</a></li>
+                </ul>
+
+                <div class="divider__vertical"></div>
+
+                <a class="assistance" href="tel:1800 265 24 52">
+                    <div class="assistance__icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+
+                    <div class="assistance__info">
+                        <span class="caption">Road Assistance</span>
+                        <p class="phone">1800 265 24 52</p>
+                    </div>
+                </a>
+                <i class="fa-solid fa-bars nav-button"></i>
+            </div>
+        </div>
+    </header>
+    <body>
+        <main>
+            <section class="contact-us container">
+                <div class="form-block">
+                    <h3 class="form-heading heading-3">Get in touch with our experts</h3>
+
+                    <form class="form">
+                        <div class="form-wrap">
+                            <div class="form-left">
+                                <input class="form-text-input input paragraph-2" type="text" name="name" placeholder="Your full Name" />
+                                <input class="form-text-input input paragraph-2" type="text" name="email" placeholder="Your Email" />
+                                <select class="form-text-input paragraph-2" name="service" id="service-type">
+                                    <option value="-" selected disabled>Select service type</option>
+                                    <option value="repair">Repair</option>
+                                    <option value="oil">Oil Change</option>
+                                    <option value="tire">Tire Change</option>
+                                </select>
+                                <input class="form-text-input input paragraph-2" type="text" name="message" placeholder="Message" />
+                            </div>
+                            <div class="form-right contacts">
+                                <div class="single-help">
+                                    <span class="paragraph-2">Address</span>
+                                    <p class="title-2">NH 234 Public Square San Francisco 65368</p>
+                                </div>
+                                <div class="single-help">
+                                    <span class="paragraph-2">Contact Details</span>
+                                    <a href="tel:1800 265 24 52"><p class="title-2">1800 265 24 52</p></a>
+                                    <a href="mailto:finsweet@gmail.com"><p class="title-2">Finsweet@gmail.com</p></a>
+                                </div>
+                                <div class="single-help">
+                                    <span class="paragraph-2">Opening Hours</span>
+                                    <p class="title-2">Monday to Friday 9:00 AM to 10:00 AM</p>
+                                </div>
+                            </div>
+                        </div>
+                        <input class="form-button input-button button button-primary" type="submit" value="Send message" />
+                    </form>
+                </div>
+            </section>
+            <section class="contact-us-footer">
+                <div class="image-container top container">
+                    <img src="../assets/p_contact/contact__map.png" alt="contact map" />
+                </div>
+                <div class="image-container bottom">
+                    <img src="../assets/p_contact/contact__bg.png" alt="contact background" />
+                </div>
+            </section>
+        </main>
+    </body>
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-top-wrapper">
+                <div class="footer-top container">
+                    <div class="left-side">
+                        <h3 class="heading-3">Get in touch with us for your service</h3>
+                        <div class="social-icons">
+                            <div class="single-social-icon">
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
+                            <div class="single-social-icon">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="single-social-icon">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                            <div class="single-social-icon">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="single-help">
+                            <span class="paragraph-1">Help line Number</span>
+                            <a href="tel:1800 265 24 52"><p class="title-2">1800 265 24 52</p></a>
+                        </div>
+                        <div class="single-help">
+                            <span class="paragraph-1">Address</span>
+                            <p class="title-2">NH 234 Public Square San Francisco 65368</p>
+                        </div>
+                        <div class="single-help">
+                            <span class="paragraph-1">We are open</span>
+                            <p class="title-2">Monday to Friday 9:00 AM to 10:00 AM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-wrapper">
+                <div class="footer-bottom container">
+                    <div class="footer-logo">
+                        <a href="/">
+                            <img src="../assets/footer__logo.png" alt="logo" />
+                        </a>
+                    </div>
+                    <div class="footer-navigation">
+                        <ul class="footer-nav">
+                            <li><a class="paragraph-2" href="/">Home</a></li>
+                            <li><a class="paragraph-2" href="./about.html">About us</a></li>
+                            <li><a class="paragraph-2" href="./services.html">Services</a></li>
+                            <li><a class="paragraph-2" href="./blog.html">Blog</a></li>
+                            <li><a class="paragraph-2" href="./contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="copyright hidden">
+                        <p class="paragraph-2">@ Copyright Finsweet 2021</p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p class="paragraph-2">@ Copyright Finsweet 2021</p>
+            </div>
+        </div>
+    </footer>
+</html>

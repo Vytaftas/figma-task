@@ -140,7 +140,7 @@
 
 /* --- Get in touch block */
 .get-in-touch .cta {
-    background-image: url('../assets/getintouch__img1.png');
+    background-image: url('./main/assets/getintouch__img1.png');
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -158,11 +158,12 @@
 .get-in-touch .img-1 {
     width: 320px;
     background-position: center left;
-    background-image: url('../assets/getintouch__img1.png');
+    background-image: url('/Vytaftas/figma-task/main/assets/getintouch__img1.png');
+    
 }
 .get-in-touch .img-2 {
     width: 40%;
-    background-image: url('../assets/getintouch__img2.png');
+    background-image: url('/Vytaftas/figma-task/main/assets/getintouch__img2.png');
 }
 
 .get-in-touch .cta .info-block {

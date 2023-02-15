@@ -140,7 +140,7 @@
 
 /* --- Get in touch block */
 .get-in-touch .cta {
-    background-image: url('./main/assets/getintouch__img1.png');
+    background-image: url('/Vytaftas/figma-task/main/assets/getintouch__img1.png');
     background-size: cover;
     background-position: center center;
     position: relative;
